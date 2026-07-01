@@ -12,3 +12,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+footer{
+  background-image:url('../footer-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
