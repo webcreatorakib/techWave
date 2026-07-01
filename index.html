@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind -->
@@ -10,14 +11,15 @@
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <style type="text/tailwindcss">
-      @theme {
+        @theme {
         --color-primary: #1a0b2e;
         --color-secondary :#230e3d;
         --color-card:#290e4c;
       }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="bg-primary text-white">
         <div class="max-w-7xl mx-auto text-white py-5 flex justify-between px-2">
             <div>
@@ -31,7 +33,9 @@
                 </ul>
             </div>
             <div>
-                <button class="btn md:block hidden bg-linear-to-bl from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <button
+                    class="btn md:block hidden bg-linear-to-bl from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full">Subscribe
+                    <i class="fa-solid fa-arrow-right"></i></button>
                 <div class="md:hidden">
                     <i class="text-3xl mt-2 fa-solid fa-bars"></i>
                 </div>
@@ -53,8 +57,12 @@
                         <h2 class="text-4xl lg:text-6xl font-bold">TechWave</h2>
                         <p class="py-5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                         <div>
-                            <button class="btn bg-linear-to-bl  me-2 from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
-                            <button class="ms-2 text-green-300 px-3 py-2 border border-2 border-green rounded-full cursor-pointer"><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                            <button
+                                class="btn bg-linear-to-bl  me-2 from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full"><i
+                                    class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                            <button
+                                class="ms-2 text-green-300 px-3 py-2 border border-2 border-green rounded-full cursor-pointer"><i
+                                    class="fa-solid fa-envelope"></i> Subscribe</button>
                         </div>
                     </div>
                 </div>
@@ -63,9 +71,12 @@
         <!-- podcast -->
         <section class="text-white bg-primary">
             <div class="max-w-7xl mx-auto pb-15 text-center">
-                   <h2 class="text-4xl font-bold mb-3">About The Podcast</h2>
-                   <p class="w-1/2 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea sed culpa impedit tempora eligendi esse illo eveniet, quibusdam minima? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque est, qui fuga quod dignissimos vel ratione possimus earum vitae quam.</p>
-                   <p class="mt-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, placeat?</p>
+                <h2 class="text-4xl font-bold mb-3">About The Podcast</h2>
+                <p class="w-1/2 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea sed
+                    culpa impedit tempora eligendi esse illo eveniet, quibusdam minima? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Neque est, qui fuga quod dignissimos vel ratione possimus earum vitae
+                    quam.</p>
+                <p class="mt-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, placeat?</p>
             </div>
             <div class="max-w-7xl mx-auto pb-15 text-center">
                 <div class="bg-gray-200" style="height:1px;"></div>
@@ -92,43 +103,88 @@
         <!-- choose section -->
         <section class="bg-secondary text-white py-12">
             <div class="mx-2">
-                            <div class="text-center py-2 mb-2">
-                <h2 class="text-4xl font-bold">Why Choose TechWave</h2>
-            </div>
-            <div class="max-w-7xl mx-auto py-2 grid sm:grid-cols-3 gap-5">
-                <div class="bg-card mx-2 p-6 flex items-center sm:row-span-2">
-                    <div>
-                    <img src="assets/headphone.png">
-                    <h3 class="text-2xl font-bold my-2">Premium Audio Quality</h3>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment adn expert audio engineering. Every episode is mastered for optimal listing across all devices and platforms.</p>
+                <div class="text-center py-2 mb-2">
+                    <h2 class="text-4xl font-bold">Why Choose TechWave</h2>
+                </div>
+                <div class="max-w-7xl mx-auto py-2 grid sm:grid-cols-3 gap-5">
+                    <div class="bg-card mx-2 p-6 flex items-center sm:row-span-2">
+                        <div>
+                            <img src="assets/headphone.png">
+                            <h3 class="text-2xl font-bold my-2">Premium Audio Quality</h3>
+                            <p>Experience crystal-clear sound with professional-grade recording equipment adn expert
+                                audio engineering. Every episode is mastered for optimal listing across all devices and
+                                platforms.</p>
+                        </div>
+                    </div>
+                    <div class="bg-card p-6 sm:col-span-2">
+                        <img src="assets/device.png">
+                        <h3 class="text-2xl font-bold my-2">Mobile Friendly</h3>
+                        <p>Listen on the go with seamless mobile experience and offline downloads</p>
+                    </div>
+                    <div class="bg-card p-6 sm:col-span-2">
+                        <img src="assets/location.png">
+                        <h3 class="text-2xl font-bold my-2">Global Community</h3>
+                        <p>Connect with tech enthusiasts from over 120 countries worldwide</p>
+                    </div>
+                    <div class="bg-card p-6 sm:col-span-2">
+                        <img src="assets/resource.png">
+                        <h3 class="text-2xl font-bold my-2">Exclusive Interviews</h3>
+                        <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host
+                            secures exclusive conversations you won't find anywhere else, diving deep into their
+                            journeys, failures, and success strategies.</p>
+                    </div>
+                    <div class="bg-card p-6">
+                        <img src="assets/resource.png">
+                        <h3 class="text-2xl font-bold my-2">Rich Resources</h3>
+                        <p>Access show notes, transcript, and additional learning materials for every episode</p>
                     </div>
                 </div>
-                <div class="bg-card p-6 sm:col-span-2">
-                    <img src="assets/device.png">
-                    <h3 class="text-2xl font-bold my-2">Mobile Friendly</h3>
-                    <p>Listen on the go with seamless mobile experience and offline downloads</p>
-                </div>
-                <div class="bg-card p-6 sm:col-span-2">
-                    <img src="assets/location.png">
-                    <h3 class="text-2xl font-bold my-2">Global Community</h3>
-                    <p>Connect with tech enthusiasts from over 120 countries worldwide</p>
-                </div>
-                <div class="bg-card p-6 sm:col-span-2">
-                    <img src="assets/resource.png">
-                    <h3 class="text-2xl font-bold my-2">Exclusive Interviews</h3>
-                    <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
-                </div>
-                <div class="bg-card p-6">
-                    <img src="assets/resource.png">
-                    <h3 class="text-2xl font-bold my-2">Rich Resources</h3>
-                    <p>Access show notes, transcript, and additional learning materials for every episode</p>
-                </div>
             </div>
+        </section>
+        <!-- Episodes -->
+        <section class="bg-primary text-white">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center text-white py-8">
+                    <h2 class="text-2xl md:text-4xl font-bold">Featured Episodes</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="rounded-5xl bg-secondary p-3">
+                        <iframe class="w-full" src="https://www.youtube.com/embed/1IxG7ywSNXk?si=6PiSh2XAK7IOXpou"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h2 class="text-xl font-bold my-3">The Future of AI in Everyday Life</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, recusandae adipisci
+                        distinctio sequi veritatis placeat eum. Soluta voluptates assumenda repellat.</p>
+                        <p class="text-green-300 py-2"><i class="fa-regular fa-clock"></i> 42 min</p>
+                    </div>
+                    <div class="rounded-2xl bg-secondary p-3">
+                        <iframe class="w-full" src="https://www.youtube.com/embed/1IxG7ywSNXk?si=6PiSh2XAK7IOXpou"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h2 class="text-xl font-bold my-3">Building Better Habits for Remote Work</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, recusandae adipisci
+                        distinctio sequi veritatis placeat eum. Soluta voluptates assumenda repellat.</p>
+                        <p class="text-green-300 py-2"><i class="fa-regular fa-clock"></i> 42 min</p>
+                    </div>
+                    <div class="rounded-2xl bg-secondary p-3">
+                        <iframe class="w-full" src="https://www.youtube.com/embed/1IxG7ywSNXk?si=6PiSh2XAK7IOXpou"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h2 class="text-xl font-bold my-3">Career Growth in Tech: A Roadmap</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, recusandae adipisci
+                        distinctio sequi veritatis placeat eum. Soluta voluptates assumenda repellat.</p>
+                        <p class="text-green-300 py-2"><i class="fa-regular fa-clock"></i> 42 min</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
-  </body>
+</body>
+
 </html>
