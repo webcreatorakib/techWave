@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #1a0b2e;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary text-white">
+        <div class="max-w-7xl mx-auto text-white py-5 flex justify-between px-2">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold">Tech<span class="gradient">Wave</span></h2>
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex mt-2 gap-5">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Episodes</a></li>
+                    <li><a href="#">Host</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn md:block hidden bg-linear-to-bl from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="md:hidden">
+                    <i class="text-3xl mt-2 fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- hero section -->
+         <section>
+            <div class="hero text-white py-32">
+                <div>
+                    <div class="flex justify-center mb-8">
+                        <div class="hero-circle flex justify-center items-center">
+                            <img class="relative w-full" src="assets/hero-circle.png">
+                            <img class="absolute" src="assets/microphone.png" alt="This is microphone">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h2 class="text-6xl font-bold">TechWave</h2>
+                        <p class="py-5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                        <div>
+                            <button class="btn bg-linear-to-bl  me-2 from-violet-500 to-fuchsia-500 p-2 px-3 rounded-full"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                            <button class="ms-2 text-green-300 px-3 py-2 border border-2 border-green rounded-full cursor-pointer"><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>

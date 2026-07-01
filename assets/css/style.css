@@ -1,0 +1,14 @@
+.gradient{
+  background: -webkit-linear-gradient(#9000f7, #fd07b3,#ffe819c2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn{
+     background-image: linear-gradient(30deg, #f6e83f, #fa0db1,#9100f7);
+}
+.hero{
+    background:url('../hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
